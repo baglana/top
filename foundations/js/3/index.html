@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+
+    function add7(num) {
+      return num + 7;
+    }
+    
+    function multiply(a, b) {
+      return a * b;
+    }
+    
+    function capitalize(str) {
+      return "".concat(
+        str.charAt(0).toUpperCase(),
+        str.slice(1).toLowerCase()
+        );
+    }
+
+    function lastLetter(str) {
+      return str.slice(-1);
+    }
+
+    console.log(add7(-4.23));
+
+    console.log(multiply(-5, 1.5));
+
+    console.log(capitalize("lowercase"));
+    console.log(capitalize("UPPERCASE"));
+    console.log(capitalize("BoTh"));
+    console.log(capitalize("bOtH"));
+
+    console.log(lastLetter("abcd"));
+
+  </script>
+</body>
+</html>
